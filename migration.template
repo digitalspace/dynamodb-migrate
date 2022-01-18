@@ -1,0 +1,6 @@
+'use strict';
+const AWS = require('aws-sdk');
+
+exports.up = async function (dbOptions) {};
+
+exports.down = async function (dbOptions) {};

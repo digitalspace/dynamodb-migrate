@@ -1,0 +1,24 @@
+{
+  "name": "dynamodb-migrate",
+  "version": "1.0.0",
+  "description": "Scripts for migrations for DynamoDB",
+  "main": "migrate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalspace/dynamodb-migrate.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/digitalspace/dynamodb-migrate/issues"
+  },
+  "homepage": "https://github.com/digitalspace/dynamodb-migrate#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1059.0",
+    "commander": "^8.3.0",
+    "luxon": "^2.3.0"
+  }
+}
