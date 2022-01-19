@@ -12,7 +12,7 @@ const CONFIG = {
   MIGRATIONS_DB_ENDPOINT:
     process.env.DYNAMODB_ENDPOINT || "http://localhost:8000",
   MIGRATIONS_TABLE_NAME: process.env.MIGRATIONS_TABLE_NAME || "migrations",
-  MIGRATIONS_DIR: process.env.MIGRATIONS_DIR || "migrations",
+  MIGRATIONS_DIR: process.env.MIGRATIONS_DIR || "../../migrations",
   MIGRATIONS_TEMPLATE: process.env.MIGRATIONS_TEMPLATE || "migration.template",
 };
 
