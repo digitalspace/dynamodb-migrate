@@ -1,6 +1,6 @@
 {
-  "name": "dynamodb-migrate",
-  "version": "1.0.0",
+  "name": "@digitalspace/dynamodb-migrate",
+  "version": "1.0.1",
   "description": "Scripts for migrations for DynamoDB",
   "main": "migrate.js",
   "scripts": {
