@@ -7,7 +7,7 @@ A simple DynamoDB database migration tool is included in the `/dynamodb-migrate`
 Add the following to scripts:
 
 ```
-"migrate": "node ./node_modules/@digitalspace/dynamodb-migrate/migrate.js"
+"migration": "node ./node_modules/@digitalspace/dynamodb-migrate/migrate.js"
 ```
 
 ## Create new migration
