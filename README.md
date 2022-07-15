@@ -20,7 +20,7 @@ npm run migration create <migration-name>
 
 ## Apply migrations
 
-`migration up` command can be used to apply new migrations to the target database. The default `migration up` command will target local DynamoDB on port 8000. The port can be overriden with the `DYNAMODB_ENDPOINT` env.
+`migration up` command can be used to apply new migrations to the target database. The default `migration up` command will target local DynamoDB on port 8000. The port can be overriden with the `DYNAMODB_ENDPOINT` env. See [AWS DynamoDB remote endpoints](https://docs.aws.amazon.com/general/latest/gr/ddb.html) to configure which region you want to target.
 
 `migration up remote` can be used to target remote AWS databases. This will require the proper AWS credentials in the environments.
 
