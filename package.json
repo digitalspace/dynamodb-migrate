@@ -1,6 +1,6 @@
 {
   "name": "@digitalspace/dynamodb-migrate",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Scripts for migrations for DynamoDB",
   "main": "migrate.js",
   "scripts": {
@@ -19,6 +19,6 @@
   "dependencies": {
     "aws-sdk": "^2.1059.0",
     "commander": "^8.3.0",
-    "luxon": "^2.5.2"
+    "luxon": "^3.3.0"
   }
 }

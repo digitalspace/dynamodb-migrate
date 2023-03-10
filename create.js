@@ -6,8 +6,8 @@ const fs = require("fs");
 
 const DATE_FORMAT = process.env.DATE_FORMAT || "yyyyMMddHHmmss";
 
-exports.create = function (config, name) {
-  const now = DateTime.now();
+exports.create = function (config, name, timezone = "America/Vancouver") {
+  const now = DateTime.now().setZone(timezone);
   const templateFile = path.join(__dirname, config.MIGRATIONS_TEMPLATE);
   const targetFilename = `${now.toFormat(DATE_FORMAT)}-${name}.js`;
   const targetFilePath = path.join(
